@@ -277,7 +277,7 @@ nav h2 {
 }
 
 .faqcontainer_item-header::after {
-    content: url(./images/dropdown.svg);
+    content: url(./dropdown.svg);
     position: absolute;
     right: 1rem;
     transition: all 0.5s ease-in-out;
