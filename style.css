@@ -41,7 +41,7 @@ nav h2 {
     text-decoration: none;
 }
 .nav-ul li a:hover{
-    color:red;
+    color:rgba(255, 255, 255, 0.411);
 }
 
 .hamburger {
@@ -125,11 +125,11 @@ nav h2 {
     
 }
 .our-package{
-    width:50%;
+    
     font-family: Arial,Helvetica,sans-serif;
     text-align: center;   
     font-weight: 500;
-    font-size: 18px; 
+    font-size: 1.1rem;
 }
 .our-package>h2{
     font-size: 2.6rem;
@@ -150,7 +150,7 @@ nav h2 {
     
 }
 .promo-container{
-    width:80%;
+    width: 80%;
     background-color:rgba(122, 106, 106, 0.116);
     box-shadow: 0px 0px 20px 2px rgba(31, 30, 30, 0.26);
     
@@ -164,7 +164,6 @@ nav h2 {
     text-align: center;
 }
 .promotion{
-    width: 100%;
     height: 350px;
     margin-top: 40px;
     display: flex;
@@ -172,10 +171,10 @@ nav h2 {
     justify-content: space-around;
 }
 .promo-1{
-    width: 35%;
+    width: 40%;
 }
 .promo-2{
-    width:40%;
+    width: 40%;
 }
 .promo-text{
     display: flex;
@@ -195,7 +194,7 @@ nav h2 {
 
 .payment-section{
     width:100%;
-    height: 500px;
+    height: 600px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -217,7 +216,7 @@ nav h2 {
 }
 .payment>h2{
     text-align: center;
-    font-size: 50px;
+    font-size: 4rem;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -231,6 +230,10 @@ nav h2 {
    border: none;
    border-radius: 8px;
 }
+.red{
+    color: red;
+    font-size: 1.6rem;
+}
 
 .faqSection{
     margin-top: 80px;
@@ -241,7 +244,7 @@ nav h2 {
     font-weight: 700;
     font-family: Arial,Helvetica,sans-serif;
     font-style: normal;
-    font-size: 33px;
+    font-size: 2rem;
     line-height: 110.6%;
     /* identical to box height, or 40px */
     text-align: center;
@@ -332,6 +335,7 @@ div.footer-content p {
 
 div.footer-input {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding-top: 3rem;
@@ -340,7 +344,7 @@ div.footer-input {
 input[type="text"] {
     margin-right: 10px;
     padding: 10px 20px;
-    width: 25%;
+    width: 200px;
     outline: none;
     border: 1px solid #ffffff;
     background: transparent;
@@ -352,7 +356,7 @@ input[type="text"] {
 input[type="email"] {
     margin-right: 10px;
     padding: 10px 20px;
-    width: 25%;
+    width: 200px;
     outline: none;
     border: 1px solid #ffffff;
     background: transparent;
