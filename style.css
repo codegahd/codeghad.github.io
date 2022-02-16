@@ -230,6 +230,10 @@ nav h2 {
    border: none;
    border-radius: 8px;
 }
+.payment>button:hover{
+    padding: 14px;
+    transition: padding 0.12s ease-in-out ;
+}
 .red{
     color: red;
     font-size: 1.6rem;
@@ -408,4 +412,8 @@ div.footer h6 {
     text-align: center;
     color: #88949B;
     font-size: 1rem;
+}
+div.footer-btn a:hover{
+    padding: 14px;
+    transition: padding 0.12s ease-in-out ;
 }
